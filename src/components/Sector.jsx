@@ -11,13 +11,13 @@ const content = {
     id: 'mining',
     title: 'Mining & Resource Extraction',
     description: 'Advanced mining operations with sustainable practices, responsible extraction, and environmental protection.',
-    image: 'https://images.unsplash.com/photo-1513452586888-fb366ceceb4a?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop'
   },
   Manufacturing: {
     id: 'manufacturing',
     title: 'Manufacturing & Processing',
     description: 'State-of-the-art manufacturing facilities focused on quality, efficiency, and sustainable production.',
-    image: 'https://images.unsplash.com/photo-1581093458406-0d9e6b57f5a3?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=300&fit=crop'
   }
 }
 

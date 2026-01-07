@@ -20,8 +20,8 @@ export default function MiningPage(){
             </div>
           </div>
           <div className="hero-media">
-            <img 
-              src="https://images.unsplash.com/photo-1494783367193-149034c05e41?w=500&h=500&fit=crop" 
+            <img
+              src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop"
               alt="Mining operations"
               style={{borderRadius: '20px', boxShadow: '0 20px 50px rgba(93, 64, 55, 0.4)'}}
             />
@@ -74,13 +74,13 @@ const miningServices = [
     title: 'Underground Mining Operations',
     category: 'Extraction',
     description: 'Advanced underground mining with state-of-the-art safety equipment and extraction techniques to maximize efficiency while minimizing environmental impact.',
-    image: 'https://images.unsplash.com/photo-1513452586888-fb366ceceb4a?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=300&fit=crop'
   },
   {
     title: 'Open-Pit Mining',
     category: 'Quarrying',
     description: 'Efficient open-pit operations with modern equipment for extracting surface minerals and resources. Full compliance with environmental regulations.',
-    image: 'https://images.unsplash.com/photo-1516937941344-00b4ee3b2c51?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=300&fit=crop'
   },
   {
     title: 'Mineral Processing',
@@ -104,6 +104,6 @@ const miningHighlights = [
   {
     title: 'Advanced Technology',
     description: 'Investment in cutting-edge mining technology and data analytics for optimized operations and productivity.',
-    image: 'https://images.unsplash.com/photo-1590080876-c7a86a3ee0e5?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=100&h=100&fit=crop'
   }
 ]

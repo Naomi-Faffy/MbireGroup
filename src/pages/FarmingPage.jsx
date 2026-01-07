@@ -86,7 +86,7 @@ const farmingServices = [
     title: 'Dairy & Livestock Production',
     category: 'Livestock',
     description: 'Full-scale dairy farming services with sustainable grazing practices, animal welfare focus, and quality production standards.',
-    image: 'https://images.unsplash.com/photo-1520763185298-1b434c919abe?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop'
   }
 ]
 

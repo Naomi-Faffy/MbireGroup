@@ -4,10 +4,10 @@ export default function Sustainability(){
   const galleryImages = [
     'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400&h=300&fit=crop',
     'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1520763185298-1b434c919abe?w=400&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1500382017468-7049fae79eab?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
     'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1500382017468-7049fae79eab?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop',
   ]
 
   return (
@@ -27,7 +27,7 @@ export default function Sustainability(){
         <div className="highlights-grid" style={{marginTop: '3rem', marginBottom: '4rem'}}>
           <div className="highlight-card">
             <div className="highlight-image">
-              <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad576?w=150&h=150&fit=crop" alt="Sustainable farming" />
+              <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=150&h=150&fit=crop" alt="Sustainable farming" />
             </div>
             <h4>100% Sustainable</h4>
             <p>Eco-friendly practices across all operations</p>

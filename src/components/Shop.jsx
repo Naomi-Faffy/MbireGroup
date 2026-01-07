@@ -17,28 +17,28 @@ export default function Shop(){
     {
       id: 3,
       name: 'Premium Farm Seeds',
-      image: 'https://images.unsplash.com/photo-1599599810694-b3f3dd775b60?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=500&fit=crop',
       price: '$28.75',
       description: 'High-yield seeds for sustainable farming'
     },
     {
       id: 4,
       name: 'Eco-Friendly Fertilizer',
-      image: 'https://images.unsplash.com/photo-1605000797499-95a51c5a01a7?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&h=500&fit=crop',
       price: '$35.00',
       description: 'Natural fertilizer for optimal crop health'
     },
     {
       id: 5,
       name: 'Organic Herbs Pack',
-      image: 'https://images.unsplash.com/photo-1585518419759-4c41ec9b9f27?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=500&h=500&fit=crop',
       price: '$24.99',
       description: 'Fresh culinary and medicinal herbs'
     },
     {
       id: 6,
       name: 'Agricultural Tools Set',
-      image: 'https://images.unsplash.com/photo-1585524280915-c3400ca199e7?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=500&fit=crop',
       price: '$89.99',
       description: 'Professional-grade sustainable tools'
     }
