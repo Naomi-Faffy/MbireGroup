@@ -21,8 +21,9 @@ export default function ManufacturingPage(){
           </div>
           <div className="hero-media">
             <img 
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=500&fit=crop" 
-              alt="Manufacturing"
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=500&fit=crop&q=80" 
+              alt="Manufacturing facilities"
+              loading="lazy"
               style={{borderRadius: '20px', boxShadow: '0 20px 50px rgba(93, 64, 55, 0.4)'}}
             />
           </div>
@@ -35,7 +36,11 @@ export default function ManufacturingPage(){
             {manufacturingServices.map((service, idx) => (
               <div key={idx} className="sector-card">
                 <div className="sector-card-image">
-                  <img src={service.image} alt={service.title} />
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    loading="lazy"
+                  />
                   <div className="sector-card-overlay"></div>
                 </div>
                 <div className="sector-card-body">
@@ -56,7 +61,11 @@ export default function ManufacturingPage(){
             {manufacturingHighlights.map((highlight, idx) => (
               <div key={idx} className="highlight-card">
                 <div className="highlight-image">
-                  <img src={highlight.image} alt={highlight.title} />
+                  <img 
+                    src={highlight.image} 
+                    alt={highlight.title}
+                    loading="lazy"
+                  />
                 </div>
                 <h4>{highlight.title}</h4>
                 <p>{highlight.description}</p>
@@ -74,19 +83,19 @@ const manufacturingServices = [
     title: 'Processing & Refinement',
     category: 'Processing',
     description: 'State-of-the-art processing lines that increase product quality and production throughput.',
-    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=300&fit=crop&q=80'
   },
   {
     title: 'Packaging & Distribution',
     category: 'Logistics',
     description: 'Integrated packaging and distribution services to bring products to market efficiently and reliably.',
-    image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&h=300&fit=crop&q=80'
   },
   {
     title: 'Quality Control',
     category: 'QA',
     description: 'Rigorous QA processes to ensure products meet international standards and customer expectations.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop&q=80'
   }
 ]
 
@@ -94,16 +103,16 @@ const manufacturingHighlights = [
   {
     title: 'Lean Operations',
     description: 'Continuous improvement frameworks to minimize waste and maximize efficiency.',
-    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop&q=80'
   },
   {
     title: 'Worker Safety',
     description: 'Investment in occupational safety and training for all manufacturing staff.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=100&h=100&fit=crop&q=80'
   },
   {
     title: 'Sustainable Materials',
     description: 'Prioritizing sustainable inputs and recycled materials where possible.',
-    image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=100&h=100&fit=crop&q=80'
   }
 ]

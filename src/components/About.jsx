@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 export default function About(){
+  const [isVisible, setIsVisible] = useState(false)
+
+  useEffect(() => {
+    setIsVisible(true)
+  }, [])
+
   const highlights = [
     {
       title: 'Our Mission',
@@ -19,7 +25,7 @@ export default function About(){
   return (
     <section id="about" className="about">
       <div className="container">
-        <h2 style={{textAlign: 'center', color: '#FFFFFF', fontSize: '2.8rem', marginBottom: '3rem', fontWeight: '800'}}>About Mbire Group</h2>
+        <h2 style={{textAlign: 'center', color: '#FFFFFF', fontSize: '2.8rem', marginBottom: '3rem', fontWeight: '800', animation: 'fadeInUp 0.8s ease-out'}}>About Mbire Group</h2>
         <div className="about-glass-grid">
           {highlights.map((item, idx) => (
             <div key={idx} className="about-glass-card">

@@ -21,8 +21,9 @@ export default function MiningPage(){
           </div>
           <div className="hero-media">
             <img
-              src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop"
+              src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop&q=80"
               alt="Mining operations"
+              loading="lazy"
               style={{borderRadius: '20px', boxShadow: '0 20px 50px rgba(93, 64, 55, 0.4)'}}
             />
           </div>
@@ -35,7 +36,11 @@ export default function MiningPage(){
             {miningServices.map((service, idx) => (
               <div key={idx} className="sector-card">
                 <div className="sector-card-image">
-                  <img src={service.image} alt={service.title} />
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    loading="lazy"
+                  />
                   <div className="sector-card-overlay"></div>
                 </div>
                 <div className="sector-card-body">
@@ -56,7 +61,11 @@ export default function MiningPage(){
             {miningHighlights.map((highlight, idx) => (
               <div key={idx} className="highlight-card">
                 <div className="highlight-image">
-                  <img src={highlight.image} alt={highlight.title} />
+                  <img 
+                    src={highlight.image} 
+                    alt={highlight.title}
+                    loading="lazy"
+                  />
                 </div>
                 <h4>{highlight.title}</h4>
                 <p>{highlight.description}</p>
@@ -74,19 +83,19 @@ const miningServices = [
     title: 'Underground Mining Operations',
     category: 'Extraction',
     description: 'Advanced underground mining with state-of-the-art safety equipment and extraction techniques to maximize efficiency while minimizing environmental impact.',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=300&fit=crop&q=80'
   },
   {
     title: 'Open-Pit Mining',
     category: 'Quarrying',
     description: 'Efficient open-pit operations with modern equipment for extracting surface minerals and resources. Full compliance with environmental regulations.',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=300&fit=crop&q=80'
   },
   {
     title: 'Mineral Processing',
     category: 'Processing',
     description: 'Comprehensive mineral processing and refinement services using advanced technology to increase yield and product quality.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop&q=80'
   }
 ]
 
@@ -94,16 +103,16 @@ const miningHighlights = [
   {
     title: 'Safety First Approach',
     description: 'Comprehensive safety protocols and training ensuring zero-harm operations across all mining activities.',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=100&h=100&fit=crop&q=80'
   },
   {
     title: 'Environmental Compliance',
     description: 'Full adherence to international environmental standards with ongoing restoration and conservation efforts.',
-    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=100&h=100&fit=crop&q=80'
   },
   {
     title: 'Advanced Technology',
     description: 'Investment in cutting-edge mining technology and data analytics for optimized operations and productivity.',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=100&h=100&fit=crop&q=80'
   }
 ]

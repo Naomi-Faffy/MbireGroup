@@ -21,8 +21,9 @@ export default function FarmingPage(){
           </div>
           <div className="hero-media">
             <img 
-              src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=500&fit=crop" 
+              src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=500&fit=crop&q=80" 
               alt="Farming landscape"
+              loading="lazy"
               style={{borderRadius: '20px', boxShadow: '0 20px 50px rgba(93, 64, 55, 0.4)'}}
             />
           </div>
@@ -35,7 +36,11 @@ export default function FarmingPage(){
             {farmingServices.map((service, idx) => (
               <div key={idx} className="sector-card">
                 <div className="sector-card-image">
-                  <img src={service.image} alt={service.title} />
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    loading="lazy"
+                  />
                   <div className="sector-card-overlay"></div>
                 </div>
                 <div className="sector-card-body">
@@ -56,7 +61,11 @@ export default function FarmingPage(){
             {farmingHighlights.map((highlight, idx) => (
               <div key={idx} className="highlight-card">
                 <div className="highlight-image">
-                  <img src={highlight.image} alt={highlight.title} />
+                  <img 
+                    src={highlight.image} 
+                    alt={highlight.title}
+                    loading="lazy"
+                  />
                 </div>
                 <h4>{highlight.title}</h4>
                 <p>{highlight.description}</p>
@@ -74,19 +83,19 @@ const farmingServices = [
     title: 'Crop Production Consulting',
     category: 'Consulting',
     description: 'Expert guidance on crop selection, rotation planning, and production optimization tailored to your climate and soil conditions.',
-    image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=300&fit=crop&q=80'
   },
   {
     title: 'Soil Management & Fertility',
     category: 'Soil Care',
     description: 'Comprehensive soil testing, amendment strategies, and organic fertilization programs to maintain and enhance soil health.',
-    image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&h=300&fit=crop&q=80'
   },
   {
     title: 'Dairy & Livestock Production',
     category: 'Livestock',
     description: 'Full-scale dairy farming services with sustainable grazing practices, animal welfare focus, and quality production standards.',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop&q=80'
   }
 ]
 
@@ -94,16 +103,16 @@ const farmingHighlights = [
   {
     title: 'Sustainable Practices',
     description: 'Organic and regenerative farming methods that improve land health while reducing chemical inputs.',
-    image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=100&h=100&fit=crop&q=80'
   },
   {
     title: 'Technology Integration',
     description: 'Modern farming tools including irrigation systems, soil moisture monitoring, and crop analytics.',
-    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=100&h=100&fit=crop&q=80'
   },
   {
     title: 'Expert Support',
     description: 'Ongoing technical support and training to maximize productivity and profitability of your farm operations.',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=100&h=100&fit=crop'
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=100&h=100&fit=crop&q=80'
   }
 ]
