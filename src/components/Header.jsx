@@ -43,7 +43,7 @@ export default function Header(){
         </button>
 
         {/* Navigation */}
-        <nav className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
+        <nav className={`${mobileMenuOpen ? 'active' : ''}`}>
           <Link 
             to="/" 
             className={location.pathname === '/' ? 'active' : ''}

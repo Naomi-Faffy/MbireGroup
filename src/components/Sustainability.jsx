@@ -1,13 +1,19 @@
 import React, { useState } from 'react'
+import Farming1 from '../assets/farming1.jpg'
+import Farming2 from '../assets/farming2.jpg'
+import Farming3 from '../assets/farming3.jpg'
+import Farming4 from '../assets/farming4.jpg'
+import Mining1 from '../assets/mining1.jpg'
+import Mining2 from '../assets/mining2.jpg'
 
 export default function Sustainability(){
   const galleryImages = [
-    'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400&h=300&fit=crop&q=80',
-    'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=400&h=300&fit=crop&q=80',
-    'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop&q=80',
-    'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&q=80',
-    'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop&q=80',
-    'https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&q=80',
+    Farming1,
+    Farming2,
+    Farming3,
+    Farming4,
+    Mining1,
+    Mining2,
   ]
 
   return (
@@ -28,7 +34,7 @@ export default function Sustainability(){
           <div className="highlight-card">
             <div className="highlight-image">
               <img 
-                src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=150&h=150&fit=crop&q=80" 
+                src={Farming1} 
                 alt="Sustainable farming practices"
                 loading="lazy"
               />
@@ -40,7 +46,7 @@ export default function Sustainability(){
           <div className="highlight-card">
             <div className="highlight-image">
               <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=150&h=150&fit=crop&q=80" 
+                src={Mining1} 
                 alt="Community focused initiatives"
                 loading="lazy"
               />
@@ -52,7 +58,7 @@ export default function Sustainability(){
           <div className="highlight-card">
             <div className="highlight-image">
               <img 
-                src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=150&h=150&fit=crop&q=80" 
+                src={Farming2} 
                 alt="Environmental protection"
                 loading="lazy"
               />

@@ -1115,7 +1115,7 @@ body {
   
   /* Header adjustments */
   .site-header .container{padding:1rem 1rem}
-  .mobile-menu-toggle{display:flex}
+  .mobile-menu-toggle{display:flex; z-index:101}
   .site-header nav{
     position: absolute;
     top: 100%;
@@ -1131,9 +1131,10 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
-    display: flex;
+    display: none !important;
+    animation: none;
   }
-  .nav-menu.active{max-height: 400px}
+  .site-header nav.active{max-height: 400px; display: flex !important}
   .site-header nav a{
     display: block;
     padding: 0.75rem 1rem;
@@ -1198,6 +1199,23 @@ body {
   .section h3{font-size:1.3rem}
   .section p{font-size:0.95rem}
   .btn{padding:0.7rem 1.4rem; font-size:0.9rem}
+}
+
+/* Desktop Navigation (769px and above) */
+@media(min-width:769px){
+  .site-header nav{
+    position: static !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    border-bottom: none !important;
+    flex-direction: row !important;
+    gap: 2rem !important;
+    padding: 0 !important;
+    max-height: none !important;
+    display: flex !important;
+    animation: slideInFromRight 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .mobile-menu-toggle{display: none !important}
 }
 
 /* Tablet Small (481px - 640px) */

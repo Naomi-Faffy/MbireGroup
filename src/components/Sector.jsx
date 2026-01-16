@@ -1,23 +1,26 @@
 import React from 'react'
+import AgricultureImg from '../assets/farming1.jpg'
+import MiningImg from '../assets/mining1.jpg'
+import ManufacturingImg from '../assets/manufacturing1.jpg'
 
 const content = {
   Agriculture: {
     id: 'agriculture',
     title: 'Agricultural Consulting',
     description: 'Expert guidance on crop production, soil management, and sustainable farming practices for maximum yield.',
-    image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=300&fit=crop&q=80'
+    image: AgricultureImg
   },
   Mining: {
     id: 'mining',
     title: 'Mining & Resource Extraction',
     description: 'Advanced mining operations with sustainable practices, responsible extraction, and environmental protection.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop&q=80'
+    image: MiningImg
   },
   Manufacturing: {
     id: 'manufacturing',
     title: 'Manufacturing & Processing',
     description: 'State-of-the-art manufacturing facilities focused on quality, efficiency, and sustainable production.',
-    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=300&fit=crop&q=80'
+    image: ManufacturingImg
   }
 }
 

@@ -1,4 +1,10 @@
 import React from 'react'
+import Manufacturing1 from '../assets/manufacturing1.jpg'
+import Manufacturing2 from '../assets/manufacturing2.jpg'
+import Manufacturing3 from '../assets/manufacturing3.jpg'
+import Manufacturing4 from '../assets/manufacturing4.jpg'
+import Manufacturing5 from '../assets/manufacturing5.jpg'
+import Manufacturing6 from '../assets/manufacturing6.jpg'
 
 export default function ManufacturingPage(){
   return (
@@ -21,10 +27,10 @@ export default function ManufacturingPage(){
           </div>
           <div className="hero-media">
             <img 
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=500&fit=crop&q=80" 
+              src={Manufacturing1} 
               alt="Manufacturing facilities"
               loading="lazy"
-              style={{borderRadius: '20px', boxShadow: '0 20px 50px rgba(93, 64, 55, 0.4)'}}
+              style={{borderRadius: '20px', boxShadow: '0 20px 50px rgba(93, 64, 55, 0.4)', width: '500px', height: '500px', objectFit: 'cover'}}
             />
           </div>
         </div>
@@ -83,19 +89,19 @@ const manufacturingServices = [
     title: 'Processing & Refinement',
     category: 'Processing',
     description: 'State-of-the-art processing lines that increase product quality and production throughput.',
-    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=300&fit=crop&q=80'
+    image: Manufacturing2
   },
   {
     title: 'Packaging & Distribution',
     category: 'Logistics',
     description: 'Integrated packaging and distribution services to bring products to market efficiently and reliably.',
-    image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&h=300&fit=crop&q=80'
+    image: Manufacturing3
   },
   {
     title: 'Quality Control',
     category: 'QA',
     description: 'Rigorous QA processes to ensure products meet international standards and customer expectations.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop&q=80'
+    image: Manufacturing4
   }
 ]
 
@@ -103,16 +109,16 @@ const manufacturingHighlights = [
   {
     title: 'Lean Operations',
     description: 'Continuous improvement frameworks to minimize waste and maximize efficiency.',
-    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop&q=80'
+    image: Manufacturing5
   },
   {
     title: 'Worker Safety',
     description: 'Investment in occupational safety and training for all manufacturing staff.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=100&h=100&fit=crop&q=80'
+    image: Manufacturing6
   },
   {
     title: 'Sustainable Materials',
     description: 'Prioritizing sustainable inputs and recycled materials where possible.',
-    image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=100&h=100&fit=crop&q=80'
+    image: Manufacturing2
   }
 ]

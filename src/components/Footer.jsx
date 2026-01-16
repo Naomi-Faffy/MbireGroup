@@ -30,8 +30,8 @@ export default function Footer(){
 
         <div className="footer-col" style={{animationDelay: '0.4s'}}>
           <h4>Contact</h4>
-          <a href="mailto:contact@mbiregroup.com" aria-label="Email Mbire Group">contact@mbiregroup.com</a>
-          <a href="tel:+15551234567" aria-label="Call Mbire Group">+1 (555) 123-4567</a>
+          <a href="mailto:info@ventures.com" aria-label="Email Mbire Ventures">info@mbireventures.com</a>
+          <a href="tel:+15551234567" aria-label="Call Mbire Group">+263774029460</a>
           <p style={{fontSize: '0.85rem', margin: '1rem 0 0 0'}}>Sustainability • Local Impact • Quality</p>
         </div>
       </div>
