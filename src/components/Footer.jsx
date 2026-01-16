@@ -8,14 +8,14 @@ export default function Footer(){
     <footer className="site-footer" role="contentinfo" aria-label="Site footer">
       <div className="container">
         <div className="footer-col" style={{animationDelay: '0.1s'}}>
-          <h4>Mbire Group</h4>
+          <h4>Mbire Ventures</h4>
           <p>Integrated solutions across agriculture, mining and manufacturing with a focus on sustainability and community impact.</p>
         </div>
 
         <div className="footer-col" style={{animationDelay: '0.2s'}}>
           <h4>Quick Links</h4>
           <Link to="/" aria-label="Navigate to home page">Home</Link>
-          <Link to="/" aria-label="Learn about Mbire Group">About Us</Link>
+          <Link to="/" aria-label="Learn about Mbire Ventures">About Us</Link>
           <Link to="/mining" aria-label="Navigate to mining page">Mining</Link>
           <Link to="/farming" aria-label="Navigate to farming page">Farming</Link>
           <Link to="/manufacturing" aria-label="Navigate to manufacturing page">Manufacturing</Link>
@@ -37,7 +37,7 @@ export default function Footer(){
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Mbire Group. All rights reserved. | Built with sustainability in mind.</p>
+        <p>&copy; {currentYear} Mbire Ventures. All rights reserved. | Built with sustainability in mind.</p>
       </div>
     </footer>
   )

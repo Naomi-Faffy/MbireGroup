@@ -29,15 +29,15 @@ export default function Contact(){
             
             <div style={{background: 'rgba(255,255,255,0.06)', border: '1.5px solid rgba(255,255,255,0.1)', borderRadius: '16px', padding: 'clamp(1rem, 3vw, 2rem)', backdropFilter: 'blur(30px)', WebkitBackdropFilter: 'blur(30px)', boxShadow: '0 8px 32px rgba(0,0,0,0.4)', marginBottom: '2rem'}}>
               <p style={{fontSize: 'clamp(0.9rem, 2vw, 1rem)', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', margin: '0 0 1rem 0'}}>
-                <strong style={{color: '#FFFFFF', fontSize: 'clamp(0.95rem, 2.5vw, 1.1rem)'}}>Mbire Group</strong>
+                <strong style={{color: '#FFFFFF', fontSize: 'clamp(0.95rem, 2.5vw, 1.1rem)'}}>Mbire Ventures</strong>
               </p>
               <p style={{fontSize: 'clamp(0.85rem, 2vw, 0.95rem)', lineHeight: '1.6', color: 'rgba(255,255,255,0.8)', margin: '0'}}>
                 Agriculture • Mining • Manufacturing
               </p>
               <hr style={{border: 'none', borderTop: '1px solid rgba(255,255,255,0.1)', margin: '1rem 0'}} />
-              <p style={{fontSize: 'clamp(0.8rem, 2vw, 0.95rem)', color: 'rgba(255,255,255,0.85)', margin: '0.5rem 0'}}>contact@mbiregroup.com</p>
-              <p style={{fontSize: 'clamp(0.8rem, 2vw, 0.95rem)', color: 'rgba(255,255,255,0.85)', margin: '0.5rem 0'}}>+1 (555) 123-4567</p>
-              <p style={{fontSize: 'clamp(0.8rem, 2vw, 0.95rem)', color: 'rgba(255,255,255,0.85)', margin: '0.5rem 0'}}>www.mbiregroup.com</p>
+              <p style={{fontSize: 'clamp(0.8rem, 2vw, 0.95rem)', color: 'rgba(255,255,255,0.85)', margin: '0.5rem 0'}}>info@mbireventures.com</p>
+              <p style={{fontSize: 'clamp(0.8rem, 2vw, 0.95rem)', color: 'rgba(255,255,255,0.85)', margin: '0.5rem 0'}}>+263774029460</p>
+              <p style={{fontSize: 'clamp(0.8rem, 2vw, 0.95rem)', color: 'rgba(255,255,255,0.85)', margin: '0.5rem 0'}}>www.mbireventures.co.zw</p>
             </div>
           </div>
         </div>

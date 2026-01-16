@@ -15,7 +15,7 @@ export default function HomePage(){
         <div className="container">
           <div className="section-title-wrapper">
             <div className="section-tag">Our Core Services</div>
-            <h2>Mbire Group Sectors</h2>
+            <h2>Mbire Ventures Sectors</h2>
             <p style={{color: 'rgba(255,255,255,0.7)', fontSize: '1.1rem', marginTop: '1rem'}}>
               Comprehensive solutions across agriculture, mining, and manufacturing
             </p>

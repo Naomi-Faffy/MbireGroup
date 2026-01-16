@@ -10,7 +10,7 @@ export default function About(){
   const highlights = [
     {
       title: 'Our Mission',
-      description: 'Mbire Group drives sustainable development across Africa through innovation, excellence, and strategic partnerships in agriculture, mining, manufacturing, and renewables.'
+      description: 'Mbire Ventures drives sustainable development across Africa through innovation, excellence, and strategic partnerships in agriculture, mining, manufacturing, and renewables.'
     },
     {
       title: 'Core Values',
@@ -25,7 +25,7 @@ export default function About(){
   return (
     <section id="about" className="about">
       <div className="container">
-        <h2 style={{textAlign: 'center', color: '#FFFFFF', fontSize: '2.8rem', marginBottom: '3rem', fontWeight: '800', animation: 'fadeInUp 0.8s ease-out'}}>About Mbire Group</h2>
+        <h2 style={{textAlign: 'center', color: '#FFFFFF', fontSize: '2.8rem', marginBottom: '3rem', fontWeight: '800', animation: 'fadeInUp 0.8s ease-out'}}>About Mbire Ventures</h2>
         <div className="about-glass-grid">
           {highlights.map((item, idx) => (
             <div key={idx} className="about-glass-card">

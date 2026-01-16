@@ -12,7 +12,7 @@ export default function FarmingPage(){
               Modern Sustainable Farming Solutions
             </h2>
             <p style={{color: 'rgba(255,255,255,0.8)', fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '2rem'}}>
-              Mbire Group brings together traditional farming wisdom with modern agricultural technology. We help farmers maximize yields through sustainable practices, soil management, and innovative crop production methods.
+              Mbire Ventures brings together traditional farming wisdom with modern agricultural technology. We help farmers maximize yields through sustainable practices, soil management, and innovative crop production methods.
             </p>
             <div className="hero-cta">
               <a href="#contact" className="btn">Get Started</a>

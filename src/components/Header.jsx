@@ -26,8 +26,8 @@ export default function Header(){
       <div className="container header-inner">
         <div className="brand-wrap">
           <Link to="/" onClick={handleLinkClick}>
-            <img src={Logo} alt="Mbire Group logo" className="logo" />
-            <h1 className="brand">Mbire Group</h1>
+            <img src={Logo} alt="Mbire Ventures logo" className="logo" />
+            <h1 className="brand">Mbire Ventures</h1>
           </Link>
         </div>
 
